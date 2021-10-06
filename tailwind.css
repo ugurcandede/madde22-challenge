@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply h-full text-primaryText font-body antialiased;
+  }
+  .wrapper {
+    height: 100%;
+  }
+}
